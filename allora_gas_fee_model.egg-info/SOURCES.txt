@@ -1,0 +1,5 @@
+setup.py
+allora_gas_fee_model.egg-info/PKG-INFO
+allora_gas_fee_model.egg-info/SOURCES.txt
+allora_gas_fee_model.egg-info/dependency_links.txt
+allora_gas_fee_model.egg-info/top_level.txt
