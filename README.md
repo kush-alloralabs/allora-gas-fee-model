@@ -1,7 +1,5 @@
 # Allora Gas Fee Model
 
-# Allora Gas Fee Model
-
 ## Overview
 A machine learning model for predicting Ethereum gas fees using historical data from Owlracle API. The system employs a hybrid LSTM architecture with regularization and batch normalization for robust predictions.
 
@@ -29,13 +27,25 @@ A machine learning model for predicting Ethereum gas fees using historical data 
 
 ## Installation
 
+1. Clone the repository
+
+```bash
+git clone https://github.com/allora-labs/gas-fee-model.git
+```
+
+2. Install the dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## Environment Variables
+3. Copy the .env.example file to .env and add your Owlracle API key
 
-Get an Owlracle API key from [here](https://owlracle.info/api)
+```bash
+cp .env.example .env
+```
+
+4. Get an Owlracle API key from [here](https://owlracle.info/api)
 
 In your terminal, run:
 ```bash
