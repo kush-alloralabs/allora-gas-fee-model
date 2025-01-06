@@ -27,6 +27,27 @@ A machine learning model for predicting Ethereum gas fees using historical data 
 - **Loss Function**: Huber Loss
 - **Optimizer**: Adam (lr=0.002)
 
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Environment Variables
+
+Get an Owlracle API key from [here](https://owlracle.info/api)
+
+In your terminal, run:
+```bash
+export OWLRACLE_API_KEY=your_api_key
+```
+
+Or in your .env file, add:
+
+```
+OWLRACLE_API_KEY=your_api_key
+```
+
 ## Running the Pipeline
 
 ### 1. Training

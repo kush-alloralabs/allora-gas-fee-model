@@ -56,8 +56,7 @@ def fetch_owlracle_data(timeframe='1h', candles=1000):
         return data
     
     try:
-        # api_key = os.getenv('OWLRACLE_API_KEY')
-        api_key = '481ce83db03c4662918df91a303e2fe9'
+        api_key = os.getenv('OWLRACLE_API_KEY')
         logger.info(f"API key: {api_key}")
         if not api_key:
             raise ValueError("OWLRACLE_API_KEY environment variable not set")
